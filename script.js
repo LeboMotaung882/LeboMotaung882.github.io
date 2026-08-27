@@ -278,3 +278,4 @@ const throttledScrollHandler = throttle(() => {
 // Replace the existing scroll event listener
 window.removeEventListener('scroll', () => {}); // Remove any existing listeners
 window.addEventListener('scroll', throttledScrollHandler);
+
